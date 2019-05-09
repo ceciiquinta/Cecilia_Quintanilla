@@ -1,0 +1,466 @@
+/* Mis estilos personalizados para mi pagina web */
+h1, h2, h3{
+    font-family: 'Montserrart', sans-serif;
+}
+
+.botonesdeinicio {
+    width: 100%;
+    background-color: #f0f1eb;
+}
+
+.botonesdeinicio a {
+    padding-top: 25px;
+    padding-left: 70px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.inicio {
+    width: 100%;
+    height: 300px;
+    background-color: #f0f1eb;
+}
+
+.inicio p{
+    text-align: center;
+    padding-top: 110px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.AboutMe {
+    margin-top: 60px;
+}
+
+.perfil img {
+    width: 290px;
+    height: 100%;
+    margin-left: 370px;
+    margin-top: -10px;
+}
+
+.container  {
+    margin-left: 150px;
+}
+
+.container h1{
+    margin-left: 580px;
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 500
+}
+
+.container-col {
+    margin-left: 380px;
+    padding-right: 290px; 
+}
+
+.container-col row {
+    padding-top: 20px;
+}
+
+.container-col img{
+    margin-left: 500px;
+    margin-top: -125px;
+}
+
+.foto img{
+    margin-left: 125px;
+    margin-top: -165px;
+}
+.container h2{
+    margin-left: 580px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container h3{
+    margin-left: 580px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.container2 {
+    margin-top: 130px;
+}
+
+.container2 h2{
+    margin-left: 380px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container2 h3{
+    margin-left: 360px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.Portafolio h2{
+    margin-left: 165px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bd-proyecto1 {
+    width: 670px;
+    height: 90%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.carouseltexto h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 835px;
+    margin-top: -260px;
+    color: black;
+}
+
+.carouseltexto p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    margin-left: 835px;
+    text-align: justify;
+}
+
+.bd-proyecto2 {
+    width: 670px;
+    height: 90%;
+    margin-left: 550px;
+    margin-top: 130px;
+}
+
+.carouseltexto2 h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: -260px;
+    color: black;
+    text-align: justify;
+}
+
+.carouseltexto2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    margin-left: 150px;
+    text-align: justify;
+}
+
+.bd-proyecto3 {
+   width: 670px;
+    height: 90%;
+    margin-left: 150px;
+    margin-top: 110px;
+}
+
+.carouseltexto3 h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 835px;
+    margin-top: -260px;
+    color: black;
+}
+
+.carouseltexto3 p{
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    margin-left: 835px;
+    text-align: justify;
+}
+
+.bd-proyecto4 {
+    width: 670px;
+    height: 90%;
+    margin-left: 550px;
+    margin-top: 130px;
+}
+
+.carouseltexto4 h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: -260px;
+    color: black;
+    text-align: justify;
+}
+
+.carouseltexto4 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    margin-left: 150px;
+    text-align: justify;
+}
+
+.media {
+    margin-top: 200px;
+    background-color: #f0f1eb;
+}
+
+.media-body p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.media-body a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 580px;
+}
+
+@media only screen and (max-width:1024px) {
+    
+    .contenedor {
+        width: 100%;}
+}
+
+@media only screen and (max-width:600px) {
+    .botonesinicio {
+    width: 100%;
+}    
+    .botonesinicio a {
+    font-size: 8px;
+    padding-left: -10px;
+}
+    
+    .inicio {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .inicio p{
+        font-size: 12px;
+        padding-top: 60px;
+    }
+
+.AboutMe {
+    width: 200px;
+    }
+    
+.perfil img {
+    width: 150px;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.container  {
+    margin-left: 30px;
+}
+
+.container h1{
+    margin-left: 150px;
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 500
+}
+
+.container-col {
+    margin-left: 30px;
+    padding-right: 290px; 
+}
+
+.container-col row {
+    padding-top: 20px;
+}
+
+.container-col img{
+    margin-left: 70px;
+    margin-top: -610px;
+}
+
+.foto img{
+    margin-left: 70px;
+    margin-top: -165px;
+}
+.container h2{
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container h3{
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.container2 {
+    margin-top: 20px;
+}
+
+.container2 h2{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container2 h3{
+    margin-left: 30px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.Portafolio h2{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bd-proyecto1 {
+    width: 370px;
+    height: 50%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.carouseltexto h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: black;
+}
+
+.carouseltexto p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.bd-proyecto2 {
+    width: 370px;
+    height: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.carouseltexto2 h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: black;
+    text-align: justify;
+}
+
+.carouseltexto2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.bd-proyecto3 {
+   width: 370px;
+    height: 50%;;
+   margin-left: 30px;
+    margin-top: 60px;
+}
+
+.carouseltexto3 h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: black;
+}
+
+.carouseltexto3 p{
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.bd-proyecto4 {
+    width: 370px;
+    height: 50%;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.carouseltexto4 h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 60px;
+    color: black;
+    text-align: justify;
+}
+
+.carouseltexto4 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.media {
+    margin-top: 70px;
+    background-color: #f0f1eb;
+}
+
+.media-body p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.media-body a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: black;
+    margin-top: 80px;
+    margin-left: 85px;
+}
+}
